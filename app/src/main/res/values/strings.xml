@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_in">Sign In</string>
+    <string name="welcome_title_text">Welcome to our premier shoe listing app, where your footwear dreams come to life!</string>
+    <string name="welcome_body_text">Step into a world of endless possibilities as you explore our carefully curated collection, showcasing everything from sleek sneakers to luxurious heels. Whether you\'re searching for the latest trends or timeless classics, our app is your go-to destination for all things footwear. Start your journey now and discover the perfect pair to elevate your style game!</string>
+    <string name="continue_button">Continue</string>
+    <string name="instructions">Instructions</string>
+    <string name="instructions_body">To use the app, simply tap the \'Add Shoe\' button to contribute a new listing. Provide a brief description of the shoe and upload an image. Repeat this process for each pair you wish to add to the collection. Once submitted, your shoes will be available for others to browse and admire. Enjoy sharing and exploring the diverse range of footwear styles within our community-driven platform!</string>
+    <string name="welcome">Welcome</string>
+    <string name="shoe_listing">Shoe Listing</string>
+    <string name="details">Details</string>
+    <string name="logout">Logout</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="name">Name</string>
+    <string name="size">Size</string>
+    <string name="company">Company</string>
+    <string name="description">Description</string>
+</resources>

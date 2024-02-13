@@ -1,0 +1,51 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorPrimaryDark">@color/md_theme_dark_onPrimary</item>
+        <item name="colorAccent">@color/md_theme_dark_inversePrimary</item>
+        <item name="android:itemTextAppearance">@style/menuItem</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="menuItem" parent="Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:textColor">@color/menu_text</item>
+    </style>
+
+    <style name="myCustomMenuTextAppearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="backgroundColor">@color/menu_text</item>
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+    </style>
+
+    <style name="textInputsStyling" parent="@android:style/Widget.Material.EditText">
+        <item name="android:ems">11</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="textLabelsStyling" parent="@style/Widget.AppCompat.TextView">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="textsStyling" parent="@android:style/Widget.Material.TextView">
+        <item name="android:justificationMode">inter_word</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="buttonsStyling" parent="@style/Widget.MaterialComponents.Button">
+        <item name="android:width">182dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+</resources>
